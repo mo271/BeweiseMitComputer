@@ -35,4 +35,5 @@ Example projects:
   - [The Polynomial Freiman-Ruzsa Conjecture](https://teorth.github.io/pfr/) [blueprint](https://teorth.github.io/pfr/blueprint/)
   - [Sphere eversion](https://leanprover-community.github.io/sphere-eversion/) [blueprint](https://leanprover-community.github.io/sphere-eversion/blueprint/index.html)
   - [Prime number theorem](https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/), [blueprint](https://alexkontorovich.github.io/PrimeNumberTheoremAnd/web/)
+  - [78/100 theorems](https://leanprover-community.github.io/100.html)
   - Your next project here!
