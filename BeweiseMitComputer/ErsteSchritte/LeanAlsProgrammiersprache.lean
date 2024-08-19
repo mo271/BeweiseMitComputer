@@ -1,11 +1,28 @@
+import Mathlib
+
 #eval "Hallo Sommeruniversität!"
 
+def sentence := "Dies ist in Satz mit sieben Wörtern!"
+
+
+#eval se
 def fib : Nat → Nat
   | 0 => 0
   | 1 => 1
   | Nat.succ (Nat.succ  n) => fib n + fib (n + 1)
 
 #eval fib 14
+
+#eval ((List.range 20).map fib).filter (fun n => (Nat.sqrt n)^2 = n)
+
+#eval (10).digits 1234
+#eval (1234).digits 10
+
+#eval (List.range 10000).filter (fun n =>
+  let digits := (10).digits n
+  digits.length = 4 ∧
+  (digits.get! 0)^4 + (digits.get! 1)^4 + (digits.get! 2)^4  + (digits.get! 3)^4 =
+  n )
 
 inductive weekday : Type :=
 | Sunday : weekday

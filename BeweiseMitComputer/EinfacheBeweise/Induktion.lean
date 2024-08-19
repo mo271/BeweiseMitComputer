@@ -4,6 +4,9 @@ open BigOperators
 
 #eval  ∑ i in (Finset.range 5), (2 * i + 1)
 
+#check Nat.succ
+#eval Nat.succ 7
+
 theorem sum_of_odd_numbers (n : ℕ) : ∑ i in (Finset.range n), (2 * i + 1) = n ^ 2 := by
   sorry
 
